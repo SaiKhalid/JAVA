@@ -1,4 +1,4 @@
-public class Main {
+public class CodageFormaté {
     public static void main(String[] args) {
         String firstName = "Khalid Hicham";
         String lastName = "Sai";
