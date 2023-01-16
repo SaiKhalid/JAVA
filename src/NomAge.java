@@ -13,6 +13,6 @@ public class NomAge {
         int age = keyboardInput.nextInt();
 
 
-        System.out.printf("Vous vous appelez %s %s, et vous avez %d ans.", nom, prenom,age);
+        System.out.printf("Vous vous appelez %s %s, et vous avez %d ans", nom, prenom,age);
     }
 }
