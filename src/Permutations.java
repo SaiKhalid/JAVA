@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class Permutations {
     public static void main(String[] args) {
         var a = 71;
