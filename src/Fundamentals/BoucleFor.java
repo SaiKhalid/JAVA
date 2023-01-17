@@ -1,3 +1,5 @@
+package Fundamentals;
+
 public class BoucleFor {
     public static void main(String[] args) {
         long startTime = System.nanoTime();

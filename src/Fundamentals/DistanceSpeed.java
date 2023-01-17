@@ -1,3 +1,5 @@
+package Fundamentals;
+
 public class DistanceSpeed {
     public static void main(String[] args) {
         double distance = 200;

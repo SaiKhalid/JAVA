@@ -1,3 +1,5 @@
+package Fundamentals;
+
 import com.sun.source.tree.WhileLoopTree;
 
 import java.util.Scanner;
@@ -12,10 +14,10 @@ public class BoucleWhile {
 //        1. Version avec while
 //        int codePinATester=1111;
 //
-//        while (codePinATester!=codePin){
+//        while (codePinATester!=Fundamentals.codePin){
 //            System.out.print("Veuillez entrer un code PIN pour débloquer l'appareil : ");
 //            codePinATester=input.nextInt();
-//            if(codePin!=codePinATester){
+//            if(Fundamentals.codePin!=codePinATester){
 //                System.out.println("Code PIN incorrect. Veuillez ressayer.");
 //            }
 //        }

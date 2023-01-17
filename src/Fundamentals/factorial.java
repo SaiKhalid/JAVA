@@ -1,3 +1,5 @@
+package Fundamentals;
+
 import java.util.Scanner;
 
     public class factorial {
@@ -9,6 +11,6 @@ import java.util.Scanner;
             for (int i = 1; i <= number; i++) {
                 factorial *= i;
             }
-            System.out.println("The factorial of " + number + " is " + factorial);
+            System.out.println("The Fundamentals.factorial of " + number + " is " + factorial);
         }
     }

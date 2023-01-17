@@ -1,3 +1,5 @@
+package Fundamentals;
+
 public class CodageFormate {
     public static void main(String[] args) {
         String firstName = "Khalid Hicham";
