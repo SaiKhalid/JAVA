@@ -5,7 +5,7 @@ public class Exo2_17_01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("introduisez le nombre des colonnes :");
+        System.out.print("introduisez le nombre des colonnes :");
         int n = input.nextInt();
 
         int[] tableau=new int[n];
@@ -27,16 +27,16 @@ public class Exo2_17_01 {
         }
 
         int maxElement = tableau[0];
-        int maxCount = 1;
+        int maxApparition = 1;
 
         for (int i : frequence.keySet()) {
-            if (frequence.get(i) > maxCount) {
+            if (frequence.get(i) > maxApparition) {
                 maxElement = i;
-                maxCount = frequence.get(i);
+                maxApparition = frequence.get(i);
             }
         }
 
-        System.out.println("The most frequent element is: " + maxElement);
-        System.out.println("The most frequent element is: " + maxCount);
+        System.out.println("l'élément le plus fréquent : " + maxElement);
+        System.out.println("cet élément apparait : " + maxApparition);
     }
 }
