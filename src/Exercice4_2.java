@@ -1,3 +1,4 @@
+package tP_18_01;
 import java.util.Scanner;
 
 public class Exercice4_2 {

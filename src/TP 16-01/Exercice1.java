@@ -14,7 +14,7 @@ public class Exercice1 {
 
         //((a+b)/2)x³ + (a+b)²x²+ a + b + c
 
-        double y = ((a+b)/2.)*Math.pow(x,3) + (Math.pow((a+b),2))*(Math.pow(x,2)) + a + b + c;
+        double y = ((a + b) / 2.) * Math.pow(x, 3) + (Math.pow((a + b), 2)) * (Math.pow(x, 2)) + a + b + c;
 
         System.out.println();
         System.out.println("La valeur du polynôme est : " + y);

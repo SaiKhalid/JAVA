@@ -8,7 +8,7 @@ public class Exercice2_17_01 {
         int nombre = input.nextInt();
         int factorial = 1;
         for (int i=1;i<=nombre;i++) {
-            //Fundamentals.factorial = Fundamentals.factorial * i;
+            //Fundamentals.Bases.factorial = Fundamentals.Bases.factorial * i;
             factorial *= i;
         }
         if (factorial!= 0){
